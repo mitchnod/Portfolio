@@ -3,11 +3,11 @@
     margin: 0;
     padding: 0;
     font-family: 'Press Start 2P';
+    color: lime;
 }
 
 .df{
     display: flex;
-    align-items: center;
 }
 
 .navBar{
@@ -15,13 +15,11 @@
     justify-content: space-between;
     padding: 20px 50px;
     font-size: 12px;
+    position: fixed;
+    width: 100%;
 }
 
-p,h1,h2,a,li{
-    color: lime;
-}
-
-a{
+#nav_list a{
     text-decoration: none;
     margin: 0 10px;
 }
@@ -36,24 +34,27 @@ ul{
 }
 
 #home{
-    height: 500px;
+    height: 600px;
+    align-items: center;
     justify-content: center;
     background-color: black;
 }
 
-.home_tags{
-    margin: 30px;
+.home_title, .about_col h1{
+    margin-bottom: 30px;
     text-align: center;
 }
 
-#about_conatiner,#skills_container{
+#background{
     background-color: black;
 }
 
-#about, #skills{
-    margin: 5px 150px 0px 150px;
+#about, #skills_container{
+    margin: 0 auto;
+    width: 75%;
     height: 500px;
-    background-color: black;
+    align-items: center;
+    padding: 30px 0px 30px 0px;
 }
 
 #about{
@@ -64,25 +65,20 @@ ul{
     flex: 1;
 }
 
-.about_col h1{
-    margin: 30px;
-}
-
 .about_col img{
     height: 350px;
 }
 
+#skills_container h1{
+    margin-bottom: 30px;
+}
+
 .skills_col{
-    height: 200px;
     border: 2px solid lime;
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 5px;
 }
 
-.skills_col h2{
-    margin-bottom: 20px;
-}
-
-.skills_list li{
-    margin: 15px 0px 15px 0px;
+.skills_li{
+    margin: 20px 0px 20px 0px;
 }
