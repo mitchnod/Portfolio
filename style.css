@@ -14,7 +14,7 @@
     display: flex;
 }
 
-.navBar{
+#navBar{
     background-color: black;
     justify-content: space-between;
     padding: 20px 50px;
@@ -59,6 +59,10 @@ ul{
     margin-top: 100px;
 }
 
+#skills_container, #projects_container{
+    margin-top: 200px;
+}
+
 #about{
     align-items: center;
     text-align: center;
@@ -78,6 +82,10 @@ ul{
     margin: 10px;
 }
 
+.projects_col{
+    padding: 20px;
+}
+
 li{
     padding: 5px 0px 5px 0px;
 }
@@ -91,15 +99,17 @@ li{
 }
 
 .projects_col img{
-    height: 300px;
+    height: 250px;
 }
 
 #contact_container{
     height: 100px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    width: 40%;
+    margin: 0 auto;
 }
 
 #contact_container img{
-    height: 50px;
+    height: 40px;
 }

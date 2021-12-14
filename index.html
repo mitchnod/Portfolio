@@ -12,15 +12,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="navBar df">
+    <div id="navBar" class="df">
         <h1>Portfolio</h1>
         <nav>
             <ul id="nav_list" class="df">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#to_about">About</a></li>
+                <li><a href="#to_skills">Skills</a></li>
+                <li><a href="#projects_container">Projects</a></li>
+                <li><a href="#contact_container">Contact</a></li>
             </ul>
         </nav>
     </div>
@@ -33,6 +33,7 @@
             </div>
         </div>
 
+        <div id="to_about"></div>
         <div id="about" class="df">
             <div class="about_col">
                 <h1>About Me:</h1>
@@ -43,6 +44,7 @@
             </div>
         </div>
 
+        <div id="to_skills"></div>
         <div id="skills_container">
             <h1>Skills:</h1>
             <div id="skills_col_container" class="df">
@@ -92,10 +94,11 @@
         </div>
 
         <div id="contact_container" class="df">
+            <p>Contact me!</p>
             <div id="contact_icons">
-                <img src="email.png" alt="email icon">
-                <img src="GitHub_Icon.png" alt="github icon">
-                <img src="linkedin_logo.png" alt="linkedin icon">
+                <a href="mailto: mitch_nod@yahoo.com" target="_blank"><img src="email.png" alt="email icon"></a>
+                <a href="https://github.com/mitchnod" target="_blank"><img src="GitHub_Icon.png" alt="github icon"></a>
+                <a href="https://www.linkedin.com/in/mitchell-nodland-073b851b7/" target="_blank"><img src="linkedin_logo.png" alt="linkedin icon"></a>
             </div>
         </div>
     </div>
