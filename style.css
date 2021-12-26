@@ -42,7 +42,8 @@ ul{
 }
 
 #home{
-    height: 600px;
+    height: 100vh;
+    width: 100vw;
     align-items: center;
     justify-content: center;
     border-bottom: 2px dotted lime;
@@ -99,7 +100,7 @@ li{
 }
 
 .projects_col img{
-    height: 250px;
+    height: 150px;
 }
 
 #contact_container{
@@ -112,4 +113,27 @@ li{
 
 #contact_container img{
     height: 40px;
+}
+
+span{
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 1024px){
+
+    #my_face{
+        display: none;
+    }
+
+    #skills_col_container, #projects_col_container{
+        flex-direction: column;
+    }
+
+    #contact_container{
+        width: 90%;
+    }
+
+    #navBar{
+        display: none;
+    }
 }
